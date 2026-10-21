@@ -281,7 +281,7 @@ begin
     if j = 500000 then
     begin
       writeln;
-      writeln('*** ZIEL WIRD GEÄNDERT ***');
+      writeln('*** ZIEL WIRD GEÃ„NDERT ***');
       writeln('Altes Goal: ', goalVal:0:0);
       goalVal := goalVal + Round((Random * 80000) - 40000);
       writeln('Neues Goal: ', goalVal:0:0);
